@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = ".";
+const prefix = "-";
 /////////////////////////
 ////////////////////////
 
@@ -379,8 +379,8 @@ client.on('message', message => {
 
 
 
-const adminprefix = ".";
-const devs = ['383711936174620672','481213742109949972','480738319899295795'];
+const adminprefix = "-";
+const devs = ['522764310313697282','349216772450287616',''];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -480,9 +480,9 @@ client.on("message", message => {
 .trg ➾ لعبة ترجمه
 .say ➾
 =========================================================
-وقريباً المزيد من الاكواد
+-Relo#0600 .
 =========================================================
-Support server : https://discord.gg/xTK8jku
+Support server : https://discord.gg/NBYbe6R
 `)
    message.author.sendEmbed(embed)
    
@@ -510,9 +510,9 @@ Support server : https://discord.gg/xTK8jku
 .trg ➾ traduction game
 .say ➾ the bot say your message
 =========================================================
-More commands soon
+-Relo#0600 .
 =========================================================
-Support server : https://discord.gg/xTK8jku
+Support server : https://discord.gg/NBYbe6R
 `)
    message.author.sendEmbed(embed)
    
@@ -540,9 +540,9 @@ Support server : https://discord.gg/xTK8jku
 .clear  ➾ لمسح الشات
 .role [@mention] [role name] ➾ لاعطاء رتبة لعضو
 =========================================================
-وقريباً المزيد من الاكواد
+-Relo#0600 .
 =========================================================
-Support server :  https://discord.gg/xTK8jku
+Support server : https://discord.gg/NBYbe6R
 `)
    message.author.sendEmbed(embed)
    
@@ -570,9 +570,9 @@ const embed = new Discord.RichEmbed()
 .clear ➾ to clear chat
 .role [@mention] [role name] ➾ to give role fo someone
 =========================================================
-More commands soon
+-Relo#0600 .
 =========================================================
-Support server : https://discord.gg/xTK8jku
+Support server : https://discord.gg/NBYbe6R
 `)
 message.author.sendEmbed(embed)
  
@@ -597,9 +597,9 @@ client.on("message", message => {
 1np ➾ لمعرفة الاغنية مشغلة
 1queue ➾ قائمة الاغاني
 =========================================================
-وقريباً المزيد من الاكواد
+-Relo#0600 .
 =========================================================
-Support server : https://discord.gg/xTK8jku
+Support server : https://discord.gg/NBYbe6R
 `)
    message.author.sendEmbed(embed)
    
@@ -624,9 +624,9 @@ client.on("message", message => {
 1queue ➾ to see the song list
  
 =========================================================
-More codes soon
+-Relo#0600 .
 =========================================================
-Support server : https://discord.gg/xTK8jku
+Support server : https://discord.gg/NBYbe6R .
 `)
    message.author.sendEmbed(embed)
    
